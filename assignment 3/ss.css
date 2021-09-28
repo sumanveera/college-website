@@ -1,0 +1,42 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  background-image: url("images/slider12.jpg");
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  position: relative;
+  margin: 0px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(231, 178, 178);
+  color: black;
+}
+li {
+    display: inline;
+  }
+  

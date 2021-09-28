@@ -1,0 +1,10 @@
+.EVENTS {
+    background-color: #fff;
+    
+    padding: 100px 0px;
+}
+
+.EVENTS .container .row .title h1::before {
+    
+    left: 30%;
+}
